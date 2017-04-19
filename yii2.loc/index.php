@@ -78,7 +78,7 @@ class SiteController extends Controller
             return $this->goBack();
         }
         return $this->render('login', [
-            'model' => $model,
+            'model' => $model,localhost
         ]);
     }
 
@@ -97,7 +97,7 @@ class SiteController extends Controller
     /**
      * Displays contact page.
      *
-     * @return string
+     * @return stringlocalhost
      */
     public function actionContact()
     {
